@@ -149,6 +149,7 @@ train_loader = DataLoader(dataset=dataset,batch_size=batch_size,shuffle=True,num
 # verificam daca utilizam pe acest dispozitiv cpu sau gpu(cuda)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
+#daca il putem utiliza atunci dam push la acest model device-ului
 model = NeuralNet(in_size, hidd_size, out_size).to(device)
 
 # pierderile si optimizarile
