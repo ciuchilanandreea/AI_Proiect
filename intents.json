@@ -1,0 +1,246 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey",
+        "Hello, thanks for visiting",
+        "Hi there",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "verification",
+      "patterns": [
+        "How are you?",
+        "How you doing?",
+        "You are ok?"
+      ],
+      "responses": [
+        "I am fine, thank you!",
+        "I am good, I have a nice day!"
+      ]
+    },
+    {
+      "tag": "cooking",
+      "patterns": [
+        "I want to cook today, but I don't know what.",
+        "You have an idea of recipe?",
+        "I want to eat something."
+      ],
+      "responses": [
+        "Maybe you should cook pasta or pizza.",
+        "I think moussaka is a good idea. "
+      ]
+    },
+    {
+      "tag": "cars",
+      "patterns": [
+        "You have a favourite car?",
+        "I think I want to buy a car.",
+        "Maybe a new car is a good idea."
+      ],
+      "responses": [
+        "I think Range Rover have some beutiful and smart cars.",
+        "In my opinion Range Rover have very interestings car."
+      ]
+    },
+
+    {
+      "tag": "AI",
+      "patterns": [
+        "What is an AI?",
+        "What do you know about AI?",
+        "How about AI?"
+      ],
+      "responses": [
+        "AI, or Artificial Intelligence, is about high-performing computers.",
+        "Artificial intelligence (AI) is a wide-ranging branch of computer science concerned with building smart machines capable of performing tasks."
+      ]
+    },
+
+    {
+      "tag": "Healty",
+      "patterns": [
+        "I want to lose some weight. What do you recomend?",
+        "I think I will start to run 30 minute every day.",
+        "Maybe I will make a salad for lunch."
+      ],
+      "responses": [
+        "I think a healty life-style is something that everyone should take it serios.",
+        "I think a healty life-style is always a good idea."
+      ]
+    },
+
+    {
+      "tag": "Flowers",
+      "patterns": [
+        "I think I want to buy some flowers for my room. Any sugestion?",
+        "I will go to make a bouquet of flowers for my mom.",
+        "What do you think about flowers?",
+        "I want to buy some flowers."
+      ],
+      "responses": [
+        "I love flowers. I think a bouquet is always a great present.",
+        "Every time I see flowers it make me so happy."
+      ]
+    },
+    {
+      "tag": "Help",
+      "patterns": [
+        "I need some help.",
+        "You can help me?",
+        "Help me please!"
+      ],
+      "responses": [
+        "What can I do for you?",
+        "Sure, what you need?",
+        "What information you wanna know?"
+
+      ]
+    },
+
+    {
+      "tag": "Mistake",
+      "patterns": [
+        "Can AI make mistakes?",
+        "What happened if an AI make a mistake?",
+        "Is posible for AI to make mistakes?"
+      ],
+      "responses": [
+        "AI, or Artificial Intelligence, is about high-performing computers. They are very smart, but they do make mistakes. Big mistakes.",
+        "The errors that AI systems make are a direct result of the intelligence that those machines are required to exhibit."
+      ]
+    },
+
+    {
+      "tag": "Weather",
+      "patterns": [
+        "How is weather today?",
+        "How is gonna be outside today?",
+        "You know something about weather?"
+      ],
+      "responses": [
+        "Outside will be sunny and hot. Sunglasses will be perfect today.",
+        "Outside will be rainy. Better you take your umbrella."
+      ]
+    },
+
+    {
+      "tag": "Animals",
+      "patterns": [
+        "You know something about animals?",
+        "I need some informations about animals.",
+        "What do you know about animals?"
+      ],
+      "responses": [
+        "Ask me about lions, bears, wolves and penguins.",
+        "I know some informations about lions, bears, wolves and penguins."
+      ]
+    },
+
+    {
+      "tag": "Lions",
+      "patterns": [
+        "Ok, then I want some informations about lions.",
+        "What do you know about lions?",
+        "You know something interesting about lions?"
+      ],
+      "responses": [
+        "Lions are the only cats that live in groups and a group, or pride, can be up to 30 lions, depending on how much food and water is available.",
+        "A lion's roar can be heard up to eight kilometres away and lions scent mark their territory, using their wee, to create a border."
+      ]
+    },
+
+    {
+      "tag": "Bears",
+      "patterns": [
+        "Ok, then I want some informations about bears.",
+        "What do you know about bears?",
+        "You know something interesting about bears?"
+      ],
+      "responses": [
+        "Bears are extraordinarily intelligent animals. Bears grieve deeply for others.",
+        "Bears have excellent senses of smell, sight and hearing.",
+        "Bears care deeply about family members."
+      ]
+    },
+
+    {
+      "tag": "Wolves",
+      "patterns": [
+        "Ok, then I want some informations about wolves.",
+        "What do you know about wolves?",
+        "You know something interesting about wolves?"
+      ],
+      "responses": [
+        "They have four toes with claws in an oval shape.",
+        "Wolves mate for life and a litter of wolves is usually 4 to 6 pups.",
+        "A pack of wolves can range from 2 to over 30 wolves and wolves can run at 36 to 38 MPH."
+      ]
+    },
+
+    {
+      "tag": "Penguins",
+      "patterns": [
+        "Ok, then I want some informations about penguins.",
+        "What do you know about penguins?",
+        "You know something interesting about penguins?"
+      ],
+      "responses": [
+        "A group of penguins in the water is called a raft but on land they're called a waddle!",
+        "The black and white tuxedo look donned by most penguin species is a clever camouflage called countershading.",
+        "Penguins may huddle together for several reasons and penguins evolved to fly underwater."
+      ]
+    },
+
+    {
+      "tag": "music",
+      "patterns": [
+        "Ok, then I want some informations about music.",
+        "What do you know about music?",
+        "You know something interesting about music?"
+      ],
+      "responses": [
+        "In 2016, Mozart Sold More CDs than Beyonce.",
+        "Some People Feel Nothing Toward Music.",
+        "Listening to Music Enhances Physical Performance."
+      ]
+    },
+
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "What do you call a boomerang that won’t come back?A stick.",
+        "What time is it when the clock strikes 13?Time to get a new clock.",
+        "Why did the dinosaur cross the road?Because the chicken wasn’t born yet."
+      ]
+    }
+  ]
+}
